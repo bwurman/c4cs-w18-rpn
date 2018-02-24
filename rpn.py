@@ -15,8 +15,10 @@ def calculate(arg):
                 return arg2 - arg1
             elif token == '*':
                 return arg2 * arg1
-            else:
+            elif token == '/':
                 return arg2 / arg1
+            else:
+                return "Malformed input"
 
 def main():
     while True:
