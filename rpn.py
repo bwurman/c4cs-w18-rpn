@@ -17,6 +17,8 @@ def calculate(arg):
                 return arg2 * arg1
             elif token == '/':
                 return arg2 / arg1
+            elif token == '^':
+                return pow(arg2, arg1)
             else:
                 return "Malformed input"
 
